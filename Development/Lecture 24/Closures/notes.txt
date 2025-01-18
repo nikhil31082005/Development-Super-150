@@ -1,0 +1,8 @@
+CLOSURE : 
+
+whenever youreturn a function tha t function is never returned alone it always takes along the lexical environment with it so that if in future we ever want run that returned function then it should not throw an error.
+
+
+Use case of closure:
+closure are used to privatized the method before
+before the class syntex were introduce we had no way to privatize our variable or function so in that case we used closures so that we can privatize the variable

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #222;
+  color: #eee;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #666;
+  color: #eee;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.badge::before,
+.badge::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #555;
+}
+
+.badge::before {
+  z-index: 1;
+}
+
+.badge::after {
+  z-index: -1;
+}
+
+.badge:hover::before {
+  background-color: #777;
+}
+
+.badge:hover::after {
+  background-color: #444;
+}
+
+.badge span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+
+.leet-logo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <img class="leet-logo" src="https://assets.leetcode.com/static/images/logo-light.svg" alt="LeetCode Logo">
+    <h1 class="title">Dear nsikarwar496</h1>
+    <h1>Congratulations</h1>
+    <h1>「200 Days Badge 2024」!</h1>
+    <div class="badge">
+      <span>DAYS</span>
+    </div>
+    <p>SOLVING PROBLEMS 200+ DAYS IN 2024</p>
+  </div>
+</body>
+</html>

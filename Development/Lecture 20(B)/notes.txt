@@ -1,0 +1,20 @@
+
+=>  javacript is single threaded,weakly typed,dynamically typed,intepreted programming language
+=>  shortest code of js is : empty js file
+=> whenever a js code is run a global execution context(GEC) is created inside that GEC we have two phases :
+1. MCP (Memory creation phase) :variable,function memory allocated before execution of any line of code
+2. CEP(Code execution phase) : start after MCP ->  from top execution -> every line execution 
+    whenver a function is called a new execution context is created with the name of the function which also has two phase(same as above)
+
+ ------------------------------Declarative(let,var,const)---------------------------------
+ **  reinitialisation : 
+ e.g let a =10;
+        a  = 'sam'
+** redeclaration :
+e.g let a =10;
+    let a  = 'sam'
+
+
+var : reinitialisation and redeclaration both is possible
+let : reinitialisation possible but redeclaration is not possible
+const : reinitialisation and redeclaration both are not possible

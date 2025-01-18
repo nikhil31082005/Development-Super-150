@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-color: black;
+}
+
+.body{
+    position: relative;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the last value (0.5) to change opacity */
+}
+
+.z-index{
+    position: relative;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    width: 80%;
+    height: 13vh;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.option{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.btn1{
+    margin: 0px 5px;
+}
+
+#lang{
+    background-color: transparent;
+    padding: 8px 36px;
+    color: rgb(248, 245, 245);
+    border-radius: 6px;
+    font-weight: bolder;
+    border: 3px solid white;
+}
+
+#signIn{
+    background-color: rgb(229, 9, 20);
+    padding: 8px 14px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    border: 3px solid rgb(229, 9, 20);
+}
+
+#signIn:hover{
+    background-color: rgb(177, 3, 12);
+    border: 3px solid rgb(177, 3, 12);
+    cursor: pointer;
+}
+
+.about{
+    color: white;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Align text in the center */
+}
+
+.price{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 33px;
+}
+
+.price h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 33px;
+}
+
+.price p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.watch{
+    position: relative;
+    z-index: 1;
+}
+
+.watch h3{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#input{
+    padding: 18px 147px 18px 15px;
+    background-color: rgba(22, 18, 18, 0.5);
+    color: white;
+    border: 0.25px solid rgb(245, 242, 242);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#btn-2{
+    background-color: red;
+    padding: 11px 46px 17px;
+    border-radius: 4px;
+    border: 2px solid red;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#btn-2:hover{
+    background-color: rgb(177, 3, 12);
+    border: 3px solid rgb(177, 3, 12);
+    cursor: pointer;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+.seperate{
+    height: 70px;
+    background-color: black;
+}
+
+.plans{
+    width: 80vw;
+    height: 130px;
+    margin: auto;
+    /* background-color: aqua; */
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(67 23 43), rgb(57 19 41), rgb(45 14 38), rgb(36 10 37));
+    transition-duration: 0.5s;
+}
+
+.plans:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.plans h1{
+    padding-top: 30px;
+    margin-left: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.plans p{
+    margin-left: 46px;
+    padding-top: 15px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.trend{
+    width: 80vw;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.trend h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0px;
+}
+
+.show-region{
+    display: flex;
+}
+
+#Region{
+    padding: 8px 12px 8px 12px;
+    font-size: 1rem;
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+#show{
+    padding: 8px 12px 8px 12px;
+    font-size: 1rem;
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+}
+
+/* Style for the container holding the image and number */
+.image-container {
+    position: relative;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+
+.image-container:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Style for the image */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    display: block;
+    border-radius: 58px;
+}
+
+/* Style for the number overlay */
+.number-overlay {
+    position: absolute;
+    top: 149px; /* Adjust this value to position the number */
+    left: -39px; /* Adjust this value to position the number */
+    font-size: 139px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.top-movies{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.noto-sans-uniquifier {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* -----------------------------membership--------------------------------------- */
+
+.membership{
+    width: 80vw;
+    margin: auto;
+    /* background-color: white; */
+}
+
+#member{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 0px;
+}
+
+.games{
+    display: flex;
+    height: 430px;
+    background-color: aliceblue;
+    border-radius: 43px
+}
+
+.content{
+    background: linear-gradient(to right, rgb(67 23 43), rgb(49 17 38), rgb(41 15 36), rgb(21 15 30));
+    border-top-left-radius: 43px; /* Border radius for top-left corner */
+    border-bottom-left-radius: 43px; /* Border radius for bottom-left corner */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1{
+    color: white;
+    padding-left: 25px;
+    font-size: 2.3rem;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content p{
+    color: rgb(184 172 179);
+    padding: 20px 15px 0px 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game-img{
+    width: 50%;
+    background-image: url(games.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 43px; /* Border radius for top-right corner */
+    border-bottom-right-radius: 43px; /* Border radius for bottom-right corner */
+}
+
+/* -----------------------------------Reason------------------------------------------------------------ */
+
+.reason{
+    width: 80vw;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.reason p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 0px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 23%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, #40416e, #292b51, #212245, #1b1c39, #24101a, #24101a);
+    /* justify-content: center; */
+}
+
+.box img{
+    width: 25%;
+    border-radius: 15px;
+}
+
+.box h3{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.mast-h3{
+    height: 50%;
+}
+
+.mast-img{
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+
+/* -----------------------------------------Questions------------------------------------------------- */
+
+.questions{
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    padding-top: 40px;
+}
+
+.p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 0px;
+}
+
+.list{
+    background-color: rgb(45, 45, 45);
+    width: 75%;
+    padding: 30px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    transition-duration: 0.5s;
+}
+
+.list:hover{
+    background-color: rgb(92, 88, 88);
+    cursor: pointer;
+}
+
+.list p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+.input{
+    width: 80vw;
+    margin: auto;
+    /* padding-top: 10px; */
+}
+
+.input p{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+
+#input2{
+    padding: 22px 46% 22px 15px;
+    background-color: rgba(22, 18, 18, 0.5);
+    color: white;
+    border: 0.25px solid rgb(245, 242, 242);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+#btn-3{
+    background-color: red;
+    padding: 16px 46px 20px;
+    border-radius: 4px;
+    border: 2px solid red;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.start-btn{
+    margin-top: 1rem;
+}
+
+
+/* ---------------------------------Footer-------------------------------------------------- */
+
+.footer{
+    width: 80vw;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.footer div p , a{
+    color: rgb(126, 123, 123);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.more{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more li{
+    width: 23%;
+    list-style: none;
+    margin: 10px;
+}
+
+.more li a{
+    color: rgb(126, 123, 123);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.more li a:hover{
+    cursor: pointer;
+}
+
+.btn-4{
+    margin: 40px 0px;
+}
+
+#greet{
+    color: rgb(126, 123, 123);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#copyright{
+    margin-top: 20px;
+    color: rgb(126, 123, 123);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}

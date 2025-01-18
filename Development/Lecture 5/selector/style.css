@@ -1,0 +1,25 @@
+/* element sel. all tag selected*/
+h1{
+    color: darkgreen;
+}
+/* id sel.   id will be unique , can work on two element but not recomanded*/
+#nikhil{
+    background-color: aqua;
+}
+/* class sel.   */
+.sam{
+    font-size: 30px;
+}
+/* attribute sel. */
+input[type="text"]{
+    background-color: rgb(245, 160, 160);
+    color: rgb(21, 23, 21);
+}
+
+input[disabled]{
+    font-size: 40px;
+}
+/* universal sel. */
+*{
+    border: 2px solid- black;
+}

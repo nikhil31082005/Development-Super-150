@@ -1,0 +1,46 @@
+div{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+section{
+    border: 1px solid green;
+}
+
+/* #static #middle{
+    position: static;       offset doesn't work on static
+    top: 100px;
+    bottom: 100px;
+} */
+
+/* #relative #middle{
+    position: relative;
+    top: 100px;         
+    left: 100px;
+} */
+
+/* #absolute{
+    position: relative;    /* if absolute is not posioned then it automatically take positionning from body 
+}
+
+#absolute #middle{
+    position: absolute;
+    top: 100px;
+} */
+
+/* #fixed #middle{
+    position: fixed;
+    top: 100px;
+} */
+
+#sticky{
+    height: 600px;
+}
+
+#sticky #middle{
+    position: sticky;
+    top: 100px;
+}

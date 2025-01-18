@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    color: crimson;
+}
+
+.progress{
+    width: 1300px;
+    height: 40px;
+}
+
+.nav-item a:hover{
+    font-weight: 1000;
+    font-family: cursive;
+    color: blue;
+}
+
+.fixed-top{
+    background-color: transparent;
+}
+
+.mid{
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.para{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.para2{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.sec1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.div3{
+    margin: 30px;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+
+.sec2{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.mid h3:hover{
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+@media screen and (max-width:500px ){
+    
+}

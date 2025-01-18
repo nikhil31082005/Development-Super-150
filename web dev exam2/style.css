@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.container1{
+    border-right: 2px solid grey ;
+    height: 743px;
+}
+.container2{
+    border-right: 2px solid grey ;
+    height: 743px;
+}
+.home{
+    margin: 20px;
+}
+p{
+    margin: 10px;
+}
+h2{
+    text-align: left;
+}
+h5{
+    text-align: left;
+}
+button{
+    border-radius: 15px;
+    text-align: left;
+}
+.container2{
+    text-align: left;
+}
+input{
+    border-radius: 10px;
+    border: none;
+   background-color: blue;
+}

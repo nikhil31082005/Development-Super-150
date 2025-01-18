@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+}
+
+.nav section{
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    height: 50px;
+}
+
+.nav section div{
+    /* margin: 10px; */
+    text-align: center;
+    height: 30px;
+    width: 80px;
+}
+
+
+.search-box{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="search"] {
+    padding: 5px;
+    border-radius: 20px;
+    background-color:rgb(246, 247, 222);
+    border: 3px solid #090909;
+  }
+
+#myInput::placeholder{
+    color: #4087c6;
+}
+  
+  .search-box button {
+    margin-left: 10px; 
+    margin-right: 20px;
+    padding: 6px 10px;
+    border: 1px solid blue;
+    background-color: #4087c6;
+    color: white;
+    border-radius: 10px;
+  }
+
+
+.fixed :hover{
+    background-color: aqua;
+}
+
+.div1{
+    text-align:justify;
+    font-size: 20px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.div2{
+    text-align: center;
+}
+
+
+.img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.band{
+    padding-bottom: 80px;
+}
+
+.tour{
+    background-color: black;
+    padding: 30px;
+}
+
+.tour h2{
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards div img{
+    height: 400px;
+    width: 280px;
+}
+
+
+.details{
+    color: white;
+    width: 300px; /* Set the width of the card */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    overflow: hidden; /* Ensure contents don't overflow */
+    margin: 20px;
+}
+
+.contact{
+    padding: 20px;
+}
+
+
+.kuchbhi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div1{
+    margin: 30px;
+    text-align: center;
+    font-size: 40px;
+}

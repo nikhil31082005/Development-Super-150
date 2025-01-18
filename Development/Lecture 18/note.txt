@@ -1,0 +1,26 @@
+**************FUNCTION*************
+-> block of code which can be reused
+
+-> SYNTAX-
+function func_name(){}
+
+
+**************OBJECT*******************
+
+-> object is a data structure.
+-> it is non-linear.
+-> unordered
+-> it is a collection of properties
+
+let person = {
+    // properties -> key:value
+    naam : "kaju",
+    age : 1,
+    color : "red"
+};
+
+
+
+****************DOT NOTATION*******************
+
+console.log(person.color);

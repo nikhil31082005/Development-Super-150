@@ -1,0 +1,19 @@
+h1::after{
+    content: " lets study";
+}
+
+h1::before{
+    content: "good morning ";
+    content: "\1F494";
+}
+
+p::first-letter{
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 40px;
+}
+
+/* p::first-line{
+    text-transform: uppercase;
+    background-color: aquamarine;
+} */

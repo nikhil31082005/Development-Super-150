@@ -1,0 +1,7 @@
+=> whenever a js code is run a GEC is created,along with it a global object is also created.
+In our case that is since we are using the browser the global object is window.
+
+In case of scoping,let and var are considered to we having two differnt scopes:
+1. var : global scope or functional scope
+2. In the case of let : local scope/script scope or block scope
+

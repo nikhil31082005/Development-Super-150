@@ -1,0 +1,42 @@
+
+
+#container1{
+    border-right: 2px solid black;
+    height: 743px;
+}
+
+button{
+
+    font-size: small;
+
+}
+
+
+img{
+
+
+}
+
+div button{
+    width: 120px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+#container2{
+    border-right: 2px solid rgb(12, 12, 12) ;
+    height: 743px;
+
+}
+
+h2{
+    text-align: left;
+    padding-bottom: 10px;
+}
+h5{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+}

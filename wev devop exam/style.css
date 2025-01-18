@@ -1,0 +1,43 @@
+*{
+    margin-top: 0;
+}
+
+body{
+    background:linear-gradient(to right,rgb(165, 176, 230),rgb(105, 134, 207),rgb(95, 82, 196));
+}
+
+.to{
+    position: sticky;
+    top: 10px;
+    margin: 0px 40px;
+    text-align: center;
+
+}
+nav{
+    border-radius: 11px;
+    top: 10px;
+    background-color: rgb(241, 222, 154);
+    font-size: 50px;
+    color: red;
+}
+
+
+
+.hi{
+    margin: 0px 40px;
+    border-radius: 11px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(156, 147, 165);
+}
+
+img{
+    width: 400px;
+    border-radius: 13px;
+    margin: 10px;
+}
+
+img:hover{
+    box-shadow:10px 10px 10px rgb(154, 63, 218);
+}
+

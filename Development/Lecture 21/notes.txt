@@ -1,0 +1,31 @@
+=> Hoisting : Accessing a variable or a function before its declaration is called Hoisting.
+=> var,let,const all three declarative hoisted but with different type
+=> let & const : hoisting-> (Dead Temporal Zone{DTZ})
+=> when var is hoisted then undefined
+=> let ,const is hoisted then give error -> Uncaught ReferenceError: Cannot access 'a' before initialization
+
+***************************LEXICAL SCOPING************************
+=> local memory + parent's LEXICAL scope + .......
+
+let a = 10;
+console.log(a); 10
+function fun(){
+    console.log(a); 10
+}
+fun();
+
+*******************************************************************
+
+let a = 10;
+function fun1(){
+    let b = 100;
+    function fun2() {
+        console.log(b); // 100
+        function fun3() {
+            console.log(a); // 10 
+        }
+        fun3();
+    }
+    fun2();
+}
+fun1();

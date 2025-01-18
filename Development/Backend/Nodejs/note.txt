@@ -1,0 +1,25 @@
+** difference between nodejs and browser
+
+1.  global object == window
+    global object == global
+
+2.  we donot have file system access
+    we have access to file system(sasta database)
+
+3.  have web api(dom)
+    not have dom operation
+
+** advantage of nodejs
+1. to create server
+2. we can create native application, command line interface(khud k terminal),
+3. writting drone software
+
+** package=> piece of code written by others
+cpm = central package manager
+
+** server=> piece of code || listener which take our request and process and give response
+
+database => sql oe nosql
+*which database is used
+CAP => consistency availabily partition tolerence
+database is also a server because server give request to database

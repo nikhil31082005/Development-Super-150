@@ -1,0 +1,29 @@
+/* ul>li{
+    font-size: 2em;
+} */
+
+ul>li{
+    font-size: 200%;
+}
+
+section{
+    width: 500px;
+    background-color: aqua;
+}
+
+div{
+    width: 50%;
+    background-color: red;
+}
+
+
+/* 
+ul>li{
+    font-size: 2rem;
+} */
+/* 
+section{
+    width: 50vw;
+    height: 50vh;
+    background-color: blanchedalmond;
+} */

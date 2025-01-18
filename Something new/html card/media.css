@@ -1,0 +1,23 @@
+@media (max-width: 1380px) {
+    .card {
+        width: 27%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90vw;
+    }
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95vw;
+    }
+    .card {
+        width: 100%;
+    }
+}

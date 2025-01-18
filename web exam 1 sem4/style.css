@@ -1,0 +1,25 @@
+p{
+    text-align: left;
+    font-size: 40px;
+}
+
+.about p {
+    font-size: 15px;
+}
+
+.about h2{
+    text-align: left;
+}
+
+.MYSKILLS h5{
+    text-align: left;
+}
+
+.me{
+    background-color: grey;
+}
+
+.mx{
+    margin: 5px 2px;
+
+}

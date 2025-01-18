@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+}
+
+.primary-btn {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.primary-btn a {
+  color: white;
+  font-size: 16px;
+}
+
+.primary-btn:hover {
+  background-color: #218838;
+}
+
+
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 800px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.contact-info {
+  flex: 3;
+}
+
+.contact-info h2 {
+  color: #007bff;
+  margin: 5px 0;
+}
+
+.contact-info h4 {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+}
+
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,72 @@
+div{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    /* display: inline-block; */
+    /* display: flex; */
+}
+
+/* 
+parent properties->
+1. flex-direction
+2. justify-content ==> depend i=on flex direction
+3. align-items
+4. flex-wrap
+5. align-content
+*/
+
+section{
+    border-radius: 20px;
+    border: 2px solid red;
+    display: flex;
+    height: 700px;
+    /* width: 1000px; */
+    flex-direction: row;
+    /* flex-direction: row-reverse;     */
+    /* flex-direction: column;          */
+    /* flex-direction: column-reverse;  */
+
+    /* justify-content: flex-start; */
+    justify-content: center;    
+    /* justify-content: flex-end;   */
+
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+
+    /* align-items: stretch;    stretch is default */
+    align-items: center;
+    /* align-items: flex-end;       */
+    /* align-items: flex-start;     */
+
+    /* flex-wrap: nowrap;   */
+    /* flex-wrap: wrap; */
+
+    /* align-content: space-around;  default */
+    /* align-content: flex-start; */
+    align-content: space-evenly;
+
+    /* gap: 30px; */
+    /* row-gap: 30px; */
+    /* column-gap: 30px; */
+
+}
+
+/* child properties
+1. flex-grow
+2. flex-shrink
+*/
+
+#div3{
+    /* flex-grow: 2; acquire spaces  */
+    flex-shrink:2;
+    /* align-self: center; */
+    /* align-self: flex-end; */
+}
+#div4{
+    /* flex-grow: 1;   take ratio with above */
+    /* flex-shrink: 4;   /*ratio 1:2:4 */
+    align-self: center;
+}

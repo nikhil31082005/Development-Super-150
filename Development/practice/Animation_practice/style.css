@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    margin-left: 45vw;
+    border-top: 20px solid Indigo;
+    border-left: 20px solid blue;
+    border-bottom: 20px solid greenyellow;
+    border-right: 20px solid orangered;
+    border-radius: 50%;
+    animation-play-state: paused;
+    align-items: center;
+}
+
+div:hover{
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes circle{
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(100%) rotate(90deg);
+    }
+    50% {
+        transform: translateY(100%) translateX(100%) rotate(180deg);
+    }
+    75% {
+        transform: translateY(0) translateX(100%) rotate(270deg);
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+    }
+}

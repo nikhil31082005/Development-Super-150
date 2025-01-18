@@ -1,0 +1,12 @@
+a[href ^= "https"]{
+    color: rgb(116, 177, 183);
+}
+
+a[href $= ".com"]{
+    color: rgb(116, 177, 183);
+}
+
+a[href *= "facebook"]{
+    color: rgb(196, 227, 40);
+}
+

@@ -1,0 +1,46 @@
+h1{
+    color: red;
+}
+div{
+    width: 600px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+@media screen and (max-width:500px){    /*ye tabhi kam karega jab width 500px se kam hogi*/
+    h1{
+        color: green;
+    }
+    p{
+        font-size: 40px;
+    }
+}
+
+/* @media screen and (orientation:landscape){
+    h1{
+        background-color: rgb(61, 53, 212);
+    }
+    p{
+        font-size: 40px;
+    }
+}
+
+@media screen and (orientation:portrait){       width<height 
+    h1{
+        background-color: rgb(53, 212, 90);
+    }
+    p{
+        font-size: 40px;
+    }
+} */
+/*  max likhte hua -> badi value uper*/
+/*  min likhte hua -> choti value uper*/
+
+/* @media screen and (orientation:landscape) , (min-width:500px){
+    h1{
+        background-color: rgb(53, 212, 90);
+    }
+    p{
+        font-size: 40px;
+    }
+} */

@@ -1,0 +1,7 @@
+=> this depends on how it is being called upon
+different types of this keyword
+1. object/method calling
+2. direct function calling
+3. Constructor  : this always points to the newly created object
+4. Indirect callling
+5. Arrow

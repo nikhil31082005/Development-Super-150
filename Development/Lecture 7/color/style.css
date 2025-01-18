@@ -1,0 +1,12 @@
+h1{
+    /* color: rgb(111,111,111); */
+
+    /* color: rgba(255, 0, 0);   a -> alpha channel
+    color: rgba(255, 0, 0 , 0.8); */
+
+
+    /* color: #ff1379;  total no of bit reserve for hexadecimal is 8. 2->R, 2->G ,2->B , 2-> alpha channel  */
+
+    color: #df569eff;
+
+}

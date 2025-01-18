@@ -1,0 +1,68 @@
+String define ->
+
+let var_name = "Nikhil";
+let var_name = 'Nikhil';
+let var_name = `Nikhil`;
+
+
+; ---> shows the line is terminated here
+
+
+concatenation --> var1 + var2 + var3;
+
+let ans = var1 + var2 + var3;
+let ans2 = var1 + " " + var2 + " " + var3;
+let ans3 = `My name is ${var2} ${var3}`;
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Number ->
+let num1 = 10;
+let nums2 = 10.75;
+let num3 = -100;
+
+typeof --> return the type  of variable
+
+-----------------------------------------------------------------------------------------------------------
+
+PEMDAS   ---> parenthesis exponential multiply divide add subtract
+
+-----------------------------------------------------------------------------------------------------------
+
+boolean --> 
+
+let sach = true;
+console.log(sach);
+
+"comparison (==)"
+
+1. general equality(==) -> data type are not comapre   type casting hoti hai
+let ans4 = sach==1;
+console.log(ans4);
+
+2. strict equality(===) -> data type are comapre    type casting nhi hoti hai
+let ans4 = sach===1;
+console.log(ans4);
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+if else --> 
+
+let a = 10;
+if(a=='10'){    // true
+    console.log("matched")
+}
+else{
+    console.log("not matched");
+}
+
+
+-----------------------------------------------------------------------------------------------------------
+
+OPERATOR ->
+
+&& , || , !

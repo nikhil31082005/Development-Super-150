@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- positions
+        top offset
+        bottom offset
+        left offset
+        right offset -->
+
+    <!-- properties of positions -->
+    <!-- 
+    1. static   -> offsets don't works
+    2. relative -> offsets works
+    3. absolute -> offset depend on the recently positioned parent
+    4. fixed    -> offset only depend on the body. element position fixed . move when scrolled
+    5. sticky   -> mixture of relative and fixed
+     -->
+
+
+    <section id="static">
+        <div style="background-color: red;">div-1</div>
+        <div style="background-color: green;" id="middle">div-2</div>
+        <div style="background-color: pink;">div-3</div>
+    </section>
+
+    <section id="relative">
+        <div style="background-color: red;">div-1</div>
+        <div style="background-color: green;" id="middle">div-2</div>
+        <div style="background-color: pink;">div-3</div>
+    </section>
+
+    <section id="absolute">
+        <div style="background-color: rgb(212, 254, 72);">div-1</div>
+        <div style="background-color: rgb(147, 234, 147);" id="middle">div-2</div>
+        <div style="background-color: rgb(230, 19, 54);">div-3</div>
+    </section>
+
+    <section id="fixed">
+        <div style="background-color: rgb(89, 114, 8);">div-1</div>
+        <div style="background-color: rgb(113, 72, 210);" id="middle">div-2</div>
+        <div style="background-color: rgb(149, 207, 244);">div-3</div>
+    </section>
+
+    <section id="sticky">
+        <div style="background-color: rgb(243, 187, 48);">div-1</div>
+        <div style="background-color: rgb(46, 229, 249);" id="middle">div-2</div>
+        <div style="background-color: rgb(186, 92, 253);">div-3</div>
+    </section>
+
+    <section id="static">
+        <div style="background-color: red;">div-1</div>
+        <div style="background-color: green;" id="middle">div-2</div>
+        <div style="background-color: pink;">div-3</div>
+    </section>
+
+    <section id="static">
+        <div style="background-color: red;">div-1</div>
+        <div style="background-color: green;" id="middle">div-2</div>
+        <div style="background-color: pink;">div-3</div>
+    </section>
+
+    <section id="static">
+        <div style="background-color: red;">div-1</div>
+        <div style="background-color: green;" id="middle">div-2</div>
+        <div style="background-color: pink;">div-3</div>
+    </section>
+
+    <section id="static">
+        <div style="background-color: red;">div-1</div>
+        <div style="background-color: green;" id="middle">div-2</div>
+        <div style="background-color: pink;">div-3</div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,21 @@
+Array-Method:
+
+1. for-each : 
+accept a call back function
+do not return anything
+
+2. map : 
+accept a call back function
+return the same length array
+
+3. filter:
+accept a call back function
+return an array of length between (0-n)
+filter out element
+Returns the elements of an array that meet the condition specified in a callback function.
+
+sort() :
+
+find() : 
+
+reduce() : 

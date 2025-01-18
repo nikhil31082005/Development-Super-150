@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/show.css">
+    <title>Contacts</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>All Contacts</h1>
+      <button class="primary-btn"><a href="/contacts">back</a></button>
+
+      <button class="primary-btn"><a href="/contact/new">Add contact</a></button>
+    </header>
+
+    <div>
+      <% for( let contact of contacts ) { %>
+      <div class="contact-card">
+        <div class="contact-info">
+          <h2><%= contact.contactName %></h2>
+          <h2><%= contact.phoneNo %></h2>
+          <h2><%= contact.email %></h2>
+          <img height="100px" width="100px" src="<%= contact.imageUrl %>" alt="maverick" />
+        </div>
+
+        <div class="contact-actions">
+          <button class="edit-btn"><a href="/contact/<%= contact._id %>/edit">Edit</a></button>
+          <form action="/contact/<%= contact._id %>/delete" method="post">
+            <button class="delete-btn">Delete</button>
+          </form>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+1. whenever new keyword is place infront of a function callig then function is constructor function.
+2. always start constuctor function with capital letter
+
+3. we never return anything from constructor function
+
+out.__proto__ === Sam.prototype  // false
+
+out.__proto__.__proto__ === Object.prototype
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/show.css" />
+    <title>Tweet Dashboard</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tweet Dashboard</h1>
+      <button class="primary-btn"><a href="/tweet/new">Post Tweet</a></button>
+    </header>
+
+    <% for (let tweet of tweets) { %>
+      <div class="tweet-card">
+        <div class="tweet-info">
+          <h2><%= tweet.heading %></h2>
+          <p><%= tweet.tweetContent %></p>
+          <h4><%= tweet.time %></h4>
+          <h4><%= tweet.date %></h4>
+        </div>
+        <div class="tweet-actions">
+          <button class="edit-btn"><a href="/tweet/<%= tweet._id %>/edit">Edit</a></button>
+          <form action="/tweet/<%= tweet._id %>/delete" method="post">
+            <button class="delete-btn">Delete</button>
+          </form>
+
+          <!-- <form action="/tweet/<%= tweet._id %>/delete?_method=DELETE" method="post">
+            <button class="delete-btn">Delete</button>
+          </form> -->
+        </div>
+      </div>
+    <% } %>
+  </body>
+</html>

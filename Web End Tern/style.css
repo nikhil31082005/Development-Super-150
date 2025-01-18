@@ -1,0 +1,58 @@
+.bg-body-tertiary{
+    background-color: transparent;
+}
+
+.nav-link:hover{
+    background-color: grey;
+}
+
+.position-fixed{
+    width: 100%;
+}
+
+.div1{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.head1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
+
+.para1{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sect1{
+    margin-bottom: 80px;
+}
+
+.sect2{
+    background-color: black;
+}
+
+.div2{
+    margin-bottom: 40px;
+}
+
+.head2{
+    text-align: center;
+    color: white;
+}
+
+.div3{
+    text-align: center;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.input{
+    border: 1px solid grey;
+    border-radius: 10px;
+}

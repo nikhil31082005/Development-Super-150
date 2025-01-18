@@ -1,0 +1,32 @@
+.ball{
+    height: 80px;
+    width: 80px;
+    border-top: 15px solid violet;
+    border-left: 15px solid indigo;
+    border-right: 15px solid greenyellow;
+    border-bottom: 15px solid orangered;
+    border-radius: 50%;
+}
+
+.ball:hover{
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-direction: fo; */
+}
+
+@keyframes circle {
+
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50%{
+        transform: translateY(400px) rotate(180deg);
+    }
+
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    }
+}

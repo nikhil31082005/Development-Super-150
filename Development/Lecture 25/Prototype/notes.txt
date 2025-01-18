@@ -1,0 +1,17 @@
+# dender proto : __proto__
+
+1. obj.__proto__ === Object.prototype
+
+2. obj.__proto__.__proto__ === null
+
+3. obj.__proto__.__proto__ === Object.prototype
+
+arr.__proto__ === Array.prototype
+
+arr.__proto__.__proto__ == Object.prototype
+
+str.__proto__ === String.prototype
+
+str.__proto__.__proto__ == Object.prototype
+
+// Everything inside js is object

@@ -1,0 +1,11 @@
+Que => why function are called first classs citizen in js or what are first class functions
+Ans => whenever In js you are able to asign a variable to a function then that function will be called as first class function and this concept of asigning a variable to a value function is called first class citizen
+
+Que => What are the two types higher order function
+Ans => 1. when you have two functions (func1,func2) ans any one of these function (assuming function two) is being sent as an argument to the other function(func1) then func1 is called higher order function
+
+2. when you have two functions (func1,func2) if one of the function (func1) can return the other function(func2) from itself then func1 is called higher order function
+
+=> If nothing is return from a function by default undefined is returned
+
+=> call back function : a call back function is basically when you pass it as an argument to some higher order function and that passed function is be called inside that higher order function this calling criteria be must then this is called call back function

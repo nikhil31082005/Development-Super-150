@@ -1,0 +1,31 @@
+************************LOOP*******************************
+==>  5 loop is js :-
+1. for
+2. while
+3. do while
+4. for-in : objects
+5. for-of :- only iterable items e.g : Arrays
+
+
+****************for-in*****************
+let obj = {
+    naam : 'kaju',
+    age : 1,
+    papa : "badam"
+}
+
+for(let i in obj){
+    console.log(i)
+} for keys
+
+for(let i in obj){
+    // console.log(obj.i)   wrong
+    console.log(obj[i])
+} for values
+
+*************************for-of*******************
+let a = [1,2,3,4,5,6]
+
+for(let item of a){
+    console.log(item)
+}

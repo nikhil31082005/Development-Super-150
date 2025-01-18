@@ -1,0 +1,27 @@
+li{
+    /* border: 2px solid red; */
+    /* list-style-type: disc; */
+    /* list-style-position: inside; */
+    /* list-style-position: outside; */
+}
+
+/* li{
+    border-top-width: 5px;
+    border-style: dashed;
+} */
+
+
+div{
+    /* border: 2px solid green; */
+    /* margin: 20px; */
+    /* margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-inline-end: 15px; */
+
+    /* margin: 20px 15px 10px 5px; */
+
+    /* margin: 20px 15px; */
+
+    /* margin: 20px 5px 15px; */
+}
